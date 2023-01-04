@@ -13,6 +13,9 @@ type server struct {
 	commands chan command
 }
 
+func Run() {
+}
+
 func NewServer() *server {
 	return &server{
 		rooms:    make(map[string]*room),

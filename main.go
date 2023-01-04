@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/maeldonn/tcpchat/pkg/server"
+	"github.com/maeldonn/tcpchat/server"
 )
 
 func main() {

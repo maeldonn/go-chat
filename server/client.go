@@ -26,8 +26,6 @@ func (client *client) ReadInput() {
 		args := strings.Split(msg, " ")
 		cmd := strings.TrimSpace(args[0])
 
-		// TODO: Gerer le cas ou pas d'argument
-
 		switch cmd {
 		case "/nick":
 			client.commands <- command{
