@@ -1,4 +1,4 @@
-package server
+package chat
 
 type commandID int
 
