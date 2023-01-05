@@ -4,11 +4,11 @@ import (
 	"log"
 	"net"
 
-	"github.com/maeldonn/tcpchat/server"
+	"github.com/maeldonn/tcpchat/chat"
 )
 
 func main() {
-	server := server.NewServer()
+	server := chat.NewServer()
 	go server.Run()
 
 	listener, err := net.Listen("tcp", ":8888")
